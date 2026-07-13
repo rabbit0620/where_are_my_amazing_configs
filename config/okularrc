@@ -1,0 +1,31 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[Recent Files]
+File1[$e]=/mnt/data/tg/The_Economist_2026-05-02@magazinesclubnew (2).pdf
+File10[$e]=/mnt/data/prothink_books/prothink_politics/政治/中国/中共历史/六四事件/张良：中国六四真相.pdf
+File2[$e]=/mnt/data/tg/The Economist (Web Edition)_0205@magazinesclubnew.pdf
+File3[$e]=/mnt/data/books/Memoirs of the Second World War : An ABRIDGEMENT of the six -- Churchill, Winston, 1874-1965, Churchill, Winston, -- Boston, Massachusetts, 1990 -- isbn13 9780395522622 -- 36e172facd7a4344ab8b789b74e8fb27 -- Anna’s Archive.pdf
+File4[$e]=/mnt/data/306/ttsx/2026/04.外科学【全】/2026外科讲义/26外科讲义.pdf
+File5[$e]=/mnt/data/306/ttsx/2026/04.外科学【全】/2026外科讲义/7.20日外科讲义汇总.pdf
+File6[$e]=/mnt/data/306/ttsx/2026/04.外科学【全】/2026外科讲义/7.6日外科讲义汇总.pdf
+File7[$e]=$HOME/.local/share/Anki2/addons21/1210908941/user_files/background
+File8[$e]=/mnt/data/prothink_books/prothink_politics/政治/(其它国家)/北朝鲜/黄长烨：黄长烨回忆录.pdf
+File9[$e]=/mnt/data/306/ttsx/2026/04.外科学【全】/2026外科讲义/26外科导图.pdf
+Name1[$e]=The_Economist_2026-05-02@magazinesclubnew (2).pdf
+Name10[$e]=张良：中国六四真相.pdf
+Name2[$e]=The Economist (Web Edition)_0205@magazinesclubnew.pdf
+Name3[$e]=Memoirs of the Second World War : An ABRIDGEMENT of the six -- Churchill, Winston, 1874-1965, Churchill, Winston, -- Boston, Massachusetts, 1990 -- isbn13 9780395522622 -- 36e172facd7a4344ab8b789b74e8fb27 -- Anna’s Archive.pdf
+Name4[$e]=26外科讲义.pdf
+Name5[$e]=7.20日外科讲义汇总.pdf
+Name6[$e]=7.6日外科讲义汇总.pdf
+Name7[$e]=background
+Name8[$e]=黄长烨：黄长烨回忆录.pdf
+Name9[$e]=26外科导图.pdf
+
+[UiSettings]
+ColorScheme=BreezeDark

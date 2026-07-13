@@ -1,0 +1,11 @@
+/home/randy/.local/bin:
+docling
+docling-tools
+env
+ml4w-dotfiles-installer
+ml4w-dotfiles-settings
+oh-my-posh
+uv
+uvx
+
+/usr/local/bin:

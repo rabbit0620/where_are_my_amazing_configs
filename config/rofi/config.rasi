@@ -1,0 +1,19 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;               /* 【核心】强行开启图标显示 */
+    icon-theme: "Papirus";
+    drun-format: "{name}";          /* 只显示应用名称，干净利落 */
+    
+    /* 简朴风的主题通常不带大图标，我们把它缩到最实用的 24 像素，完全不占地方 */
+    element-icon {
+        size: 24px;
+    }
+}
+
+
+
+
+
+@theme "/usr/share/rofi/themes/sidebar.rasi"
+
+

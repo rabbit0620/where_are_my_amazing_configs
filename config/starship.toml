@@ -1,0 +1,46 @@
+# 禁用换行，让界面更紧凑
+add_newline = false
+
+# 自定义格式：显示图标 -> 路径 -> Git -> 环境 -> 耗时
+format = """
+$os$directory$git_branch$git_status$python$golang$lua$cmd_duration
+$character"""
+
+# 路径配置
+[directory]
+style = "bold cyan"
+truncation_length = 3
+truncation_symbol = "…/"
+read_only = " 󰌾"
+
+# Git 分支
+[git_branch]
+symbol = " "
+style = "bold purple"
+format = "on [$symbol$branch]($style) "
+
+# Git 状态（显示是否有未提交、已修改等）
+[git_status]
+style = "bold red"
+format = "([\\[$all_status$ahead_behind\\]]($style) )"
+
+# Python 环境（对于你折腾 RAG 很有用）
+[python]
+symbol = " "
+style = "bold yellow"
+format = "via [${symbol}${pyenv_prefix}(${version} )(\\($virtualenv\\) )]($style)"
+
+# 命令耗时（执行超过 2 秒会显示）
+[cmd_duration]
+min_time = 2000
+style = "bold fg:246"
+format = "took [$duration]($style) "
+
+# 提示符字符（赛博风格）
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✘](bold red)"
+
+# 系统图标（Arch 专用）
+[os.symbols]
+Arch = "󰣇 "

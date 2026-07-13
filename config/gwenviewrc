@@ -1,0 +1,14 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/ArchPapers/3.png
+File2[$e]=$HOME/Downloads/Arch-Dark-Background_4k_wTM.xcf
+Name1[$e]=3.png
+Name2[$e]=Arch-Dark-Background_4k_wTM.xcf
+
+[SideBar]
+InformationSplitterSizes=211,244

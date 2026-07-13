@@ -1,0 +1,11 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-137-08ea1efd-01e2-4feb-a392-c5c3c1390862]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,applications:obsidian.desktop,applications:com.github.xournalpp.xournalpp.desktop,applications:zotero.desktop,applications:anki.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-137-global]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,applications:obsidian.desktop,applications:com.github.xournalpp.xournalpp.desktop,applications:zotero.desktop,applications:anki.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-08ea1efd-01e2-4feb-a392-c5c3c1390862]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop

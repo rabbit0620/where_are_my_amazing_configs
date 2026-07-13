@@ -1,0 +1,13 @@
+[General]
+Default Identity=107502225
+
+[Identity #0]
+Default Domain=archlinux
+Disable Fcc=false
+Disable Spam=false
+Identity=Unnamed
+Image Location=
+Inline Signature=
+Override Encryption Defaults=false
+Signature Enabled=false
+uoid=107502225
