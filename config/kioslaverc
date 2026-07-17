@@ -1,7 +1,0 @@
-[Proxy Settings]
-NoProxyFor=localhost,127.0.0.1,INTERNAL_NET,INTERNAL_NET,INTERNAL_NET,::1
-Proxy Config Script=http://127.0.0.1:33331/commands/pac
-ProxyType=1
-httpProxy=http://127.0.0.1:7897
-httpsProxy=http://127.0.0.1:7897
-socksProxy=socks://127.0.0.1:7897
