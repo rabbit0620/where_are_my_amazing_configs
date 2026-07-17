@@ -1,0 +1,104 @@
+git init
+git add .
+git commit "first commit"
+git commit -m "first commit"
+git add .
+git commit -m "second commit"
+git log
+git add .
+git add .
+git commit -m "I put the cycle words,you just need deal the only file"
+git log
+git diff
+git status
+yay -S opentabletdriver opentabletdriver-ui-git
+yay -S opentabletdriver opentabletdriver-ux-git
+git clone https://github.com/ismartcoding/endict.git
+cat *.json | jq -r '.word' | fzf \
+  --preview 'cat *.json | jq -r "select(.word == \"{}\") | \"词条: \(.word)\n音标: \(.phonetic)\n翻译: \(.translation[0])\n简化词: \(.sw)\""' \
+  --preview-window=right:50%:wrap
+# 下载由 NLTK 整理好的 COCA 词频表（word_freq.csv）
+wget https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/en/en_coca_60000.csv
+git clone https://github.com/llt22/coca-vocabulary-20000.git
+eza --icons --git
+gh -h
+git init
+git add .
+git commit -m "I want to learn English"
+gh repo create
+gh auth status
+gh auth login -h github.com
+gh repo create
+git log --oneline --graph --all --decorate
+gitk
+lazygit
+git init
+cd ~/where_are_my_amazing_configs
+
+# 搜索所有文本文件中可能包含敏感词的行（忽略 .git 目录）
+grep -rI --exclude-dir=.git \
+    -e 'api_key' -e 'token' -e 'secret' -e 'password' \
+    -e 'KEY=' -e 'SECRET=' -e 'TOKEN=' -e 'PASSWORD=' \
+    .
+grep -rI --exclude-dir=.git \
+    -E '(export |set |eval )?[A-Z_]*?(API|KEY|TOKEN|SECRET|PASSWORD)[A-Z_]*?=' .
+find . -type f -not -path './.git/*' -exec sed -i -E \
+  "s/(api_key|token|secret|password|apikey|access_key)\s*=\s*['\"][^'\"]+['\"]/\\1 = 'YOUR_API_KEY'/g" {} +
+grep -rI --exclude-dir=.git \
+    -E '(export |set |eval )?[A-Z_]*?(API|KEY|TOKEN|SECRET|PASSWORD)[A-Z_]*?=' .
+find . -type f -not -path './.git/*' -exec sed -i -E \
+  "s/(api_key|token|secret|password|apikey|access_key)\s*=\s*['\"][^'\"]+['\"]/\\1 = 'YOUR_API_KEY'/g" {} +
+grep -rI --exclude-dir=.git \
+    -E '(export |set |eval )?[A-Z_]*?(API|KEY|TOKEN|SECRET|PASSWORD)[A-Z_]*?=' .
+gh repo create
+cat .gitconfig
+bat .gitignore
+git status
+git remote
+git remote -h
+bat .gitignore
+nvim .gitignore
+cat > .gitignore << 'EOF'
+# 隐私与临时文件
+user.yaml
+*.log
+*.lock
+*.db
+*.db-shm
+*.db-wal
+*.dat
+*.bak
+emergencysave.xopp
+
+# 缓存目录
+**/Cache/
+**/GPUCache/
+**/Dawn*Cache/
+**/Code Cache/
+**/logs/
+**/blob_storage/
+**/Local Storage/
+**/Session Storage/
+**/IndexedDB/
+**/WebStorage/
+**/Shared Dictionary/
+**/Partitions/
+
+# 编辑器 / 系统临时文件
+*~
+.DS_Store
+thumbs.db
+EOF
+bat .gitignore
+git remote -v
+gh repo view
+git add .
+git commit -m "Now,all the files will be managed clearly.this is the only ccentral of my linux configuration"
+git push
+git push --set-upstream origin master
+git branch
+# 在终端中直接进行过滤搜索
+atuin search github
+atuin history list --after "2 hours ago" --format "{command}" | grep -E "git|gh" > recent_git_commands.txt
+atuin history list --after "2 hours ago" --format "{time} | {command}" | grep -E "git|gh"
+sqlite3 ~/.local/share/atuin/history.db "SELECT command FROM history WHERE timestamp > (strftime('%s', 'now', '-2 hours') * 1000) AND (command LIKE '%git%' OR command LIKE '%gh%');" > output.txt
